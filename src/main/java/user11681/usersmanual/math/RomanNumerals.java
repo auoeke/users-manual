@@ -1,12 +1,11 @@
 package user11681.usersmanual.math;
 
-import it.unimi.dsi.fastutil.chars.CharArrayList;
-import it.unimi.dsi.fastutil.ints.IntArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class RomanNumerals {
-    protected static final List<Character> ROMAN = new CharArrayList();
-    protected static final List<Integer> DECIMAL = new IntArrayList();
+    protected static final List<Character> ROMAN = new ArrayList<>();
+    protected static final List<Integer> DECIMAL = new ArrayList<>();
 
     static {
         ROMAN.add('I');
