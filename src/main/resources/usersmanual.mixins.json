@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "user11681.usersmanual.mixin.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "entity.EntityMixin",
+        "entity.player.PlayerInventoryMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
