@@ -1,11 +1,6 @@
 version = "0.1.0"
 
 dependencies {
-    modApi "${project.anvilEvents}"
-    include "${project.anvilEvents}"
-
-    modApi include("${project.anvil}")
-
     modApi include("${project.apiBase}")
     modApi include("${project.apiLifecycleEvents}")
 
