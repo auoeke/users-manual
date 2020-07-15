@@ -3,7 +3,9 @@ version = "0.1.0"
 dependencies {
     implementation include("${project.mirror}")
 
-    modApi include("${project.anvilEvents}")
+    modApi "${project.anvilEvents}"
+    include "${project.anvilEvents}"
+
     modApi include("${project.anvil}")
 
     modApi include("${project.apiBase}")
